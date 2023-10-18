@@ -1,0 +1,63 @@
+# Arquivos de compilação e arquivos gerados
+/target/
+/bin/
+/build/
+*.class
+*.jar
+
+# Arquivos de dependências (geralmente gerados pelo Maven ou Gradle)
+/lib/
+*.war
+*.ear
+*.zip
+
+# Arquivos de configuração (geralmente contêm informações sensíveis)
+/application.properties
+/application.yml
+
+# Logs e arquivos temporários
+/logs/
+*.log
+*.log.*
+*.tmp
+
+# Arquivos IDE
+/.idea/
+/.vscode/
+*.iml
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache e arquivos gerados durante a execução
+/.cache/
+/.gradle/
+/.settings/
+/.project
+/.classpath
+/.springBeans
+
+# Arquivos de configuração do Eclipse
+.settings/
+.project
+.classpath
+
+# Cache do Maven
+/.mvn/
+/maven-wrapper.jar
+
+# Arquivos gerados pelo Gradle
+.gradle/
+/build/
+
+# Arquivos gerados pelo IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iws
+
+# Logs do Spring Boot
+spring.log
+
+*.sh
